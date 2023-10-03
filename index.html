@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Países</title>
+    <link rel="icon" href="./public/img/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="login-container">
+      <h1 class="Title">TRIVIA MUNDI!</h1>
+      
+      <p class="explicJuego" >Sobre el juego: <br>El juego consta de 10 preguntas sobre países, tendrás 30 segundos por pregunta. Una vez que se agote el tiempo, la pregunta se considerará como incorrecta.</p>
+      
+      <p class="parrafoNick" >Ingresa tu nick o nombre para registrar tu puntaje!</p>
+      <input type="text" id="username" placeholder="Nombre de usuario">
+      <p id="msjVacio" style="display: none; color: red;">Por favor, ingrese su nombre de usuario.</p>
+      <button id="comenzar">Comenzar</button>
+      <div id="mejoresPuntajes">
+        <button id="top20">TOP 20</button>
+      </div>
+    </div>
+    <div id="containertop20" class="containerTop20" style="display: none">
+    <h2>TOP 20</h2>  
+    <div id="top20-list"></div>
+    </div>
+    
+    <div id="fetch-async" style="display: none;">
+      <h1>Tiempo restante: <span id="segundos">30</span></h1>
+    </div>
+    
+    <div id="intentarNuevamente" style="display: none;">
+        <button>Intentar de Nuevo</button>
+    </div>
+
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
