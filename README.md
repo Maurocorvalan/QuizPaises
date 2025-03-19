@@ -27,11 +27,6 @@ Este proyecto utiliza la [API REST Countries](https://restcountries.com/) para g
 - Feedback inmediato sobre cada respuesta.
 - Información adicional sobre los países involucrados.
 
-### Modo Personalizable:
-- Elige la cantidad de preguntas y la temática.
-
-### Diseño Adaptativo (Responsive):
-- Compatible con dispositivos móviles, tablets y escritorio.
 
 ## 🚀 Tecnologías Utilizadas
 
